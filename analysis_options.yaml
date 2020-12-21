@@ -1,0 +1,24 @@
+include: package:lint/analysis_options.yaml
+
+linter:
+  rules:
+    - prefer_const_constructors
+
+analyzer:
+  errors:
+    missing_return: error
+    missing_required_param: error
+    must_be_immutable: error
+    
+    directives_ordering: ignore
+    prefer_final_locals: ignore
+    avoid_setters_without_getters: ignore
+    sort_unnamed_constructors_first: ignore
+    avoid_single_cascade_in_expression_statements: ignore
+    avoid_classes_with_only_static_members: ignore
+    map_value_type_not_assignable: ignore
+    argument_type_not_assignable: ignore
+    non_constant_identifier_names: ignore
+    type_annotate_public_apis: ignore
+    yield_of_invalid_type: ignore
+    unused_element: ignore

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "21628687934",
+    "firebase_url": "https://phanboichau-app.firebaseio.com",
+    "project_id": "phanboichau-app",
+    "storage_bucket": "phanboichau-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21628687934:android:8f4a723b6c2bfedb86a36f",
+        "android_client_info": {
+          "package_name": "com.plexary.phanboichau_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21628687934-5f58439rpb732rjt2dkuihksevt4ruog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGaCEfCC5PU9sR-p8aRjPjE3kwXImfslM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21628687934-5f58439rpb732rjt2dkuihksevt4ruog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
