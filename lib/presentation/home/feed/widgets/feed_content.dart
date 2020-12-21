@@ -5,6 +5,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:phanboichau_app/data/classes/category.dart';
 import 'package:phanboichau_app/presentation/home/feed/widgets/info_card.dart';
 import 'package:phanboichau_app/presentation/home/feed/widgets/row_title.dart';
+import 'package:phanboichau_app/presentation/routes/router.gr.dart';
 
 class FeedContent extends StatelessWidget {
   final data = FeedCategoryData();
@@ -55,6 +56,23 @@ class FeedContent extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
             textAlign: TextAlign.center,
+          ),
+        ),
+        const RowTitle(
+          title: 'Quản lý cá nhân',
+          padding: 20,
+        ),
+        Container(
+          padding: const EdgeInsets.symmetric(horizontal: 10.0),
+          height: 200,
+          width: double.infinity,
+          child: InfoCard(
+            category: Category(
+              name: 'Bảng điểm cá nhân',
+              route: Routes.bangDiem,
+              fromAssets: true,
+              imageUrl: 'assets/images/bang_diem.jpg',
+            ),
           ),
         ),
         const RowTitle(
@@ -223,7 +241,7 @@ class FeedContent extends StatelessWidget {
         const SizedBox(height: 10),
         const Center(
           child: Text(
-            'Phiên bản 1.2.10',
+            'Phiên bản 1.3.1',
             style: TextStyle(
               color: Colors.black54,
               fontSize: 12,

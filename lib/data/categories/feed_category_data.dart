@@ -33,7 +33,7 @@ class FeedCategoryData {
     Category(
       name: 'Phụ huynh - Nhà trường',
       imageUrl: 'assets/images/parentteacher.png',
-      route: Routes.pHhs,
+      route: Routes.phhs,
       fromAssets: true,
     ),
     Category(

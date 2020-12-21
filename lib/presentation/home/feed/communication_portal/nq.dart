@@ -1,12 +1,12 @@
 import 'package:advance_pdf_viewer/advance_pdf_viewer.dart';
 import 'package:flutter/material.dart';
 
-class NoiQuy extends StatefulWidget {
+class NQ extends StatefulWidget {
   @override
-  _NoiQuy createState() => _NoiQuy();
+  _NQ createState() => _NQ();
 }
 
-class _NoiQuy extends State<NoiQuy> {
+class _NQ extends State<NQ> {
   bool _isLoading = true;
   PDFDocument document;
 
@@ -17,7 +17,7 @@ class _NoiQuy extends State<NoiQuy> {
   }
 
   Future<void> loadDocument() async {
-    document = await PDFDocument.fromAsset('assets/pdf/noiquy.pdf');
+    document = await PDFDocument.fromAsset('assets/pdf/phuc.pdf');
 
     setState(() => _isLoading = false);
   }

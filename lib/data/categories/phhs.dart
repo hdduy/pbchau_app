@@ -9,7 +9,7 @@ class PhhsCategoryData {
     Category(
       name: 'Nội quy học sinh',
       imageUrl: 'assets/images/vo.jpg',
-      route: Routes.noiQuy,
+      route: Routes.nQ,
       fromAssets: true,
     ),
     Category(

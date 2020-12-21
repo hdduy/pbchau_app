@@ -21,7 +21,7 @@ class CommsCategoryData {
     Category(
       name: 'Lịch sử hình thành',
       imageUrl: 'assets/images/history.jpg',
-      route: Routes.qTPT,
+      route: Routes.pBCHistory,
       fromAssets: true,
     ),
     Category(
